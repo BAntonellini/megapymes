@@ -1,0 +1,175 @@
+/*  CSS STYLE SHEET  */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(245, 245, 245, 0.2);
+}
+
+.headerdiv {
+	/*background-color: rgb(230, 230, 230);*/
+	background-color: #EEE;
+	max-height: 75px;
+
+}
+
+.item .active, .item {
+	display: inline-block;
+}
+
+.logomega {
+	max-height: inherit;
+}
+
+.imgcont {
+	margin-top: 2rem;
+	margin-bottom:5rem;	
+}
+
+.img-responsive {
+	max-height: 300px; 
+	margin: 0 auto;
+
+}
+
+.imgcontainer {
+	padding-top: 3rem;
+	border-bottom: 1px solid rgba(201, 92, 26, 0.65);
+}
+
+.menu li {
+	display: inline-block;
+	padding-right: 5rem;
+	padding-top: 2.5rem;
+}
+
+ul li a {
+	color: #777;
+	font-size: 1.5rem;
+}
+
+ul li a:hover {
+	text-decoration: none;
+	color: rgb(0, 68, 155);
+
+}
+
+ul li.active a {
+	color: rgb(0, 68, 155);
+}
+
+.navServicios{
+	display:none;
+}
+
+.navServicios ul li {
+	display: block;
+}
+
+.dropdown-menu {
+	background-color: #EEE;
+	max-width: 
+}
+
+.serviceimg {
+	max-height: 75px;
+}
+
+.containerserv div div img {
+	margin-bottom: 2rem;
+}
+
+.containerserv div div p {
+	font-size: 1.5rem;
+	color: #777;
+}
+
+
+.divpartner {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.separadorPartners {
+	border-bottom: 1px solid rgba(201, 92, 26, 1);
+	padding-top: 3rem;
+}
+
+.partners {
+	/*padding-top: 3rem;*/
+	font-weight: 300;
+	font-size: 2.5rem;
+	text-align: center;
+	color: rgba(201, 92, 26, 1);	
+}
+
+.partnerspan {
+	font-size: 1.2em;	
+	color: #777;
+}
+
+.rowpartners {
+	margin: 0 auto;
+	margin-left: 50px;
+	margin-bottom: 10rem;
+	/*max-width: 1030px;*/
+}
+
+
+.form-contacto {
+	font-size: 1.5rem;
+}
+
+div.form-group {
+	margin-bottom: 1rem;
+}
+
+.nombre, .apellido, .empresa, .email, .comentario {
+	width: 40% 
+}
+
+.codarea {
+	padding-right: 0px;
+	margin-right: 0px;
+	width: 8rem;
+
+}
+
+.numero {
+	display: inline-flex;	
+	width: 22rem;
+}
+
+div label fieldset input.codarea {
+	max-width: 5rem;
+}
+
+.columna-contacto {
+	background-color: rgba(201, 92, 26, 1);
+	border: 1px solid rgba(201, 92, 26, 1);
+	padding-left: 3rem;
+	padding-top: 5rem;
+	color: white;
+	font-weight: 400;
+	font-family: Roboto;
+}
+
+form div label {
+	font-weight: 300;
+}
+
+.comentario {
+	height: 15rem;
+	width: 30.5rem;
+}
+
+.botonenviar {
+	margin-top: 2.5rem;
+	text-align: center;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
